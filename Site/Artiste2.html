@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SkateCraft</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+z0I5t9zwn2A/G4C7z5Z1LY5OznU0egdR+60sJFA3hdkMan66lzt+eYNtXs4w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ionicons@5.0.2/dist/ionicons.min.css">
+    </head>
+
+
+
+
+
+<body>
+<section id="header">
+    <a href="index.html"><img src="/img/autre/logo.png"  class="logo" alt=""></a>
+    <div id="search-container">
+        <input type="text" id="search-bar" placeholder="Rechercher..."id="search-bar">
+    <div class="header-icons">
+        <i class="fas fa-search"></i> <!-- Icône pour la barre de recherche -->
+    </div>
+
+    <div>
+        <ul id="navbar">
+        <li><a  href="index.html">Home</a></li>
+        <li><a  class="active" href="shop.html">Shop</a></li>
+        <li><a href="artiste.html">Artiste</a></li>
+        <li><a href="about.html">Qui sommes nous</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="Se connecter.html"><i class="far fa-user"></i><span>Connexion</span></a></li>
+        
+        </ul>
+    </div>
+</section>
+
+<section id="prodetails" class="section-p1">
+    <div class="single-pro-image">
+        <img src="" width="100%" id="MainImg" alt="">
+            <img src="img/Artiste/2.png" width="100%"  class="small-img" alt="">
+        </div>
+</div>
+
+
+</div>
+
+    <div class="single-pro-details">
+        <h6>Home / Skate</h6>
+        <h4> Clara Moreau </h4>
+        <h4>Description</h4>
+        <span> Artiste fan de film et football</span>
+    </div>
+</section>
+
+<section id="product1" class="section-p1" >
+    <h2>Nouveautés </h2>
+    <div class="pro-container">
+        <div class="pro"onclick="window.location.href='kit Tool 2.html';">
+            <img src="img/Kit tool/kit Tool 2.jpg" alt="SkateCraft - 180 Series Skateboard Complet" class="product-image">
+            <div class="description">
+                <span class="brand">SkateCraft</span>
+                <h5 class="product-title">Clé de Skate</h5>
+                <div class="star">
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                </div>
+                <h4>12,99€</h4>
+            </div>
+            <a href="#" class="cart-icon"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro"onclick="window.location.href='skate5.html';">
+            <img src="img/skate/skate5.jpg" alt="SkateCraft - 180 Series Skateboard Complet" class="product-image">
+            <div class="description">
+                <span class="brand">SkateCraft</span>
+                <h5 class="product-title">180 Series Skateboard Complet</h5>
+                <div class="star">
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                </div>
+                <h4>99,9€</h4>
+            </div>
+            <a href="#" class="cart-icon"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+        <div class="pro"onclick="window.location.href='WD40.html';">
+            <img src="img/Entretien/WD40.jpg" alt="SkateCraft - 180 Series Skateboard Complet" class="product-image">
+            <div class="description">
+                <span class="brand">SkateCraft</span>
+                <h5 class="product-title">WD-40 dégraissant</h5>
+                <div class="star">
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                    <i class="fas fa-star star-icon"></i>
+                </div>
+                <h4>4,99€</h4>
+            </div>
+            <a href="#" class="cart-icon"><i class="fal fa-shopping-cart"></i></a>
+        </div>
+      
+    </div>
+</section>
+
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+        <h4>Inscrivez-vous à la newsletter</h4>
+        <p>Recevez des mises à jour par e-mail sur notre boutique et <span>offres spéciales.</span></p>    
+    </div>
+    <div class="form">
+        <input type="text" placeholder=" Votre adresse mail">
+         <button class="normal">S'inscrire </button> 
+    </div>
+</section>
+
+<script>
+    var MainImg = document.getElementById("MainImg");
+    var smalling = document.getElementsByClassName("small-img");
+   
+   smalling[0].onclick = function(){
+    MainImg.src = smalling[0].src;
+
+   }
+   smalling[1].onclick = function(){
+    MainImg.src = smalling[1].src;
+    
+   }
+   smalling[2].onclick = function(){
+    MainImg.src = smalling[2].src;
+    
+   }
+   smalling[3].onclick = function(){
+    MainImg.src = smalling[3].src;
+    
+   }
+</script>
+<a href="#" class="btn">
+    <img src="img/autre/fleche.png" class="icone">
+</a>
+<script src="script.js"></script>
+</body>
+
+</html>
