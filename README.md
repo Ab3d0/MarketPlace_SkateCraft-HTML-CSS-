@@ -1,7 +1,7 @@
 # 🌱 SkateCraft - Site E-commerce Circulaire
 
 **Projet HTML / CSS / JavaScript**  
-Réalisation d’un site e-commerce dans le cadre d’un projet orienté développement durable et commerce circulaire.
+Réalisation d’un site e-commerce dans le cadre d’un **projet de développement web** et de **promotion du commerce circulaire**.
 
 ## 🛠 Description du projet
 
@@ -17,7 +17,7 @@ SkateCraft est une plateforme de vente en ligne dédiée à l’univers du skate
 ### 🛒 Page Produits
 - Liste des produits autour du skateboard
 - Présentation des **kits modulables**
-- Navigation fluide et responsive
+
 
 ### 🎨 Page Artistes
 - Mise en avant d’artistes indépendants
