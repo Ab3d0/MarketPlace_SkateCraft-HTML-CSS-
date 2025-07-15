@@ -1,4 +1,4 @@
-# 🌱 SkateCraft - Site E-commerce Circulaire
+# 🛹 SkateCraft - Site E-commerce Circulaire
 
 **Projet HTML / CSS / JavaScript**  
 Réalisation d’un site e-commerce dans le cadre d’un **projet de développement web** et de **promotion du commerce circulaire**.
